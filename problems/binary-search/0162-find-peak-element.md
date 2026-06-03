@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #162 (Find Peak Element). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+给定数组 nums，峰值元素定义为严格大于相邻元素的元素，返回任意一个峰值下标。复习重点是二分比较 nums[mid] 和 nums[mid+1]，向上坡方向搜索。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 

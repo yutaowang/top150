@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #918 (Maximum Sum Circular Subarray). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+给定环形整数数组，求非空连续子数组的最大和。子数组可以跨越数组尾和头。复习重点是答案为普通最大子数组和，或总和减去最小子数组和；全负数需特殊处理。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 

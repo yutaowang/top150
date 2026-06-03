@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #112 (Path Sum). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+给定二叉树根节点和目标和 targetSum，判断是否存在一条从根到叶子的路径，路径节点值之和等于目标和。复习重点是 DFS 递减剩余和，并在叶子处判断。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 

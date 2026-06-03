@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #97 (Interleaving String). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+给定字符串 s1、s2、s3，判断 s3 是否由 s1 和 s2 交错组成，同时保持 s1、s2 内部字符相对顺序。复习重点是二维 DP，dp[i][j] 表示 s1 前 i 个和 s2 前 j 个能否组成 s3 前 i+j 个。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 

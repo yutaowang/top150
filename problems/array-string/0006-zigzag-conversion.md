@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #6 (Zigzag Conversion). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+给定字符串 s 和行数 numRows，把字符按 Z 字形轨迹排列后按行读取，返回转换后的字符串。复习重点是模拟当前行和方向变化。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 

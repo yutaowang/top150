@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #427 (Construct Quad Tree). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+给定 n x n 的 0/1 网格，构造四叉树表示该区域。若一个区域所有值相同则为叶子，否则分成四个子区域递归构造。复习重点是分治判断区域是否统一。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 

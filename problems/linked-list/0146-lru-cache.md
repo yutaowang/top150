@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #146 (LRU Cache). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+设计 LRUCache，支持 get 和 put，容量满时淘汰最近最少使用的键，要求 O(1) 操作。复习重点是哈希表加双向链表，访问或更新时移动到最近使用端。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 

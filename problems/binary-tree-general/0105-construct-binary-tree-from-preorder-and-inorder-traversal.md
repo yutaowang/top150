@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #105 (Construct Binary Tree from Preorder and Inorder Traversal). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+给定 preorder 和 inorder 遍历结果，重建二叉树。假设节点值不重复。复习重点是 preorder 首元素为根，inorder 中根左侧为左子树、右侧为右子树。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 

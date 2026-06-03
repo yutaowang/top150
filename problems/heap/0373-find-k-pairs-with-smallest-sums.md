@@ -6,9 +6,11 @@
 
 ## 1. 题目描述
 
-Solve LeetCode #373 (Find K Pairs with Smallest Sums). This file gives a concise paraphrase of the task and focuses on the algorithm, implementation, and test strategy.
+给定两个升序数组 nums1、nums2 和整数 k，返回和最小的 k 对数对。复习重点是最小堆从每个 nums1[i] 与 nums2[0] 的组合开始扩展。
 
-> Note: 为避免直接复制 LeetCode 原题文本，这里使用简要转述。提交前可对照 LeetCode 官方页面确认输入输出细节。
+**输入/输出复习提示：** 面试时先说清楚输入类型、返回值类型、是否需要原地修改，以及是否存在空输入、重复值、越界、负数等边界情况。
+
+> Note: 这里是用于复习的中文转述版题意，不直接复制 LeetCode 官方原文；正式提交前可以对照官方页面确认细节。
 
 ## 2. 解题思路
 
