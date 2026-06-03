@@ -43,13 +43,15 @@ class Solution:
         back(0); return ans
 ```
 
-## 5. 测试结果
+## 5. 测试结果 / 简单测试例子
 
-- 本文件提供的是 LeetCode 风格提交代码。
-- 数组、字符串、DP、图类题目通常可以直接复制到 LeetCode 运行。
-- 链表、二叉树、Trie、设计类题目需要 LeetCode 内置的 `ListNode` / `TreeNode` / `Node` / 调用序列测试框架。
-- 建议测试：官方示例 + 空输入/单元素 + 边界值 + 重复值。
+下面是最小化的复习测试代码，不使用 pytest，也不需要额外测试框架。复制到同一个文件底部，或者在 LeetCode Playground 里手动跑即可。
+
+```python
+print(Solution().totalNQueens(4))  # 2
+assert Solution().totalNQueens(4) == 2
+```
 
 ```text
-Status: Ready for LeetCode submission-style testing.
+Expected: see comments above.
 ```

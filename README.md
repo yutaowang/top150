@@ -209,3 +209,8 @@
 - [123. Best Time to Buy and Sell Stock III](problems/multidimensional-dp/0123-best-time-to-buy-and-sell-stock-iii.md) — Hard
 - [188. Best Time to Buy and Sell Stock IV](problems/multidimensional-dp/0188-best-time-to-buy-and-sell-stock-iv.md) — Hard
 - [221. Maximal Square](problems/multidimensional-dp/0221-maximal-square.md) — Medium
+
+
+## Simple Test Examples
+
+每道题的 Markdown 文件底部都包含一个简单测试例子代码，用于快速复习输入、输出和边界行为；不使用 pytest。
